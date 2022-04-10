@@ -16,7 +16,7 @@ function App() {
     <PageBack className='back'>
       <LeftSpace>
           <LeftWrapper>
-              <LogoImg src='./src/images/img02.jpg'>
+              <LogoImg src='./src/images/75rk.gif' alt="construction GIF">
               </LogoImg>
               <FlagTitle>
                   🚧 현재 공사중입니다! <br/>조심하세요!
