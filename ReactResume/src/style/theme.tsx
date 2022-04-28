@@ -1,6 +1,5 @@
 import {createStitches} from '@stitches/react';
 
-
 const size = {
     mobile: "770px",
     tabletS: "1023px",

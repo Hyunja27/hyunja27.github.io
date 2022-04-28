@@ -44,35 +44,40 @@ export const PageSection = styled('div', {
 export const ContentNav = styled('div', {
     margin: '0',
     padding: '0',
-    paddingBottom: '2rem',
+    marginBottom: '1rem',
     display: 'flex',
-    color:'#3F725C',
+    // color:'#3F725C',
+    background: '#3b6c49',
+    color:'red',
     width: '100%',
-    height: '5rem'
+    height: '4rem'
 })
 
 export const ContentNavZoneHome = styled('div', {
     margin: '0',
     padding: '0',
-    background:'#B075D1',
-    width: '40%',
-    height: '5rem'
+    // background:'#B075D1',
+    width: '70%',
+    height: '4rem',
+    display: 'flex'
 })
 
 export const ContentNavZoneSpec = styled('div', {
     margin: '0',
     padding: '0',
-    background:'#B488CE',
-    width: '30%',
-    height: '5rem'
+    // background:'#B488CE',
+    width: '15%',
+    height: '4rem',
+    display: 'flex'
 })
 
 export const ContentNavZoneGit = styled('div', {
     margin: '0',
     padding: '0',
-    background:'#BEA9CC',
-    width: '30%',
-    height: '5rem'
+    // background:'#BEA9CC',
+    width: '15%',
+    height: '4rem',
+    display: 'flex'
 })
 
 export const PageContents = styled('div', {
@@ -89,7 +94,6 @@ export const ContentHeadLine = styled('h1', {
     textUnderlineOffset: '4px',
     textAlign: 'center',
     fontSize: '2rem'
-
     // justifyContent: 'center'
 });
 
@@ -133,7 +137,7 @@ export const FlagTitle = styled('span',{
     }
 })
 
-export const LogoImg = styled('img', {
+export const LeftZoneImg = styled('img', {
     width: '30rem',
     display: 'block',
     margin: 'auto',
@@ -142,6 +146,12 @@ export const LogoImg = styled('img', {
         // display: 'none'
         width: '15rem'
     }
+})
+
+export const NavLogoImg = styled('img', {
+    width: '2.5rem',
+    display: 'block',
+    margin: 'auto'
 })
 
 export const LeftWrapper = styled('div', {
